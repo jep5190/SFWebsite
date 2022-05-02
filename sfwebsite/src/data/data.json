@@ -1,0 +1,176 @@
+{
+  "Header": {
+    "title": "Sandy and Family Gunsmiths",
+    "paragraph": "We are a locally run and owned gunsmith and small arms dealer"
+  },
+  "About": {
+    "paragraph": "We opened in late December 2021 and look forward to serving the greater southern Lancaster county area and beyond",
+    "Why": [
+      "Family own and run",
+      "Personalized service",
+      "Fair pricing",
+      "American made"
+    ],
+    "Why2": [
+      "Convenient location",
+      "We go the extra mile",
+      "Stand by our values",
+      "Offer service with a smile"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-recycle",
+      "name": "Cleaning",
+      "text": "Bring your gun or guns in and we will give them a thorough cleaning and inspection."
+    },
+    {
+      "icon": "fa fa-arrows-h",
+      "name": "Transfers",
+      "text": "We are proud FFL holders so we are able to complete firearm transfers in house whether you bought the firearm from us or online."
+    },
+    {
+      "icon": "fa fa-dollar",
+      "name": "Inventory",
+      "text": "We have a nice collection of firearms and ammunition in house that will be available for purchase."
+    },
+    {
+      "icon": "fa fa-medkit",
+      "name": "Assemble kits",
+      "text": "We will be selling firearm kits and offering services to assemble kits as well."
+    },
+    {
+      "icon": "fa fa-cogs",
+      "name": "Gunsmithing",
+      "text": "In addition to a thorough cleaning we can also perform gunsmithing services to repair firearms."
+    },
+    {
+      "icon": "fa fa-phone",
+      "name": "Storefront",
+      "text": "Give us a call or stop by the shop to check out whats in stock or discuss your firearm needs!"
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Coming soon via google/yelp/yahoo/facebook reviews.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Coming soon via google/yelp/yahoo/facebook reviews.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Coming soon via google/yelp/yahoo/facebook reviews.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Coming soon via google/yelp/yahoo/facebook reviews.\"",
+      "name": "Jane Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Coming soon via google/yelp/yahoo/facebook reviews.\"",
+      "name": "Johnny Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Coming soon via google/yelp/yahoo/facebook reviews.\"",
+      "name": "Jannie Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/02.jpg",
+      "name": "Sandy Ploumis",
+      "job": "Queen bee and FFL holder"
+    },
+    {
+      "img": "img/team/01.jpg",
+      "name": "Jim Ploumis",
+      "job": "Gunsmith"
+    }
+  ],
+  "Contact": {
+    "address": "381 Nottingham Rd, Quarryville, PA 17566",    
+    "phone": "+1 717 955 0346",
+    "email": "Sandy@sfgunsmiths.com",
+    "hours": "Tues-Thurs, 10am-3pm",
+    "hoursext": "Fri-Sat, 10am-5pm",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-compass",
+      "title": "Local",
+      "text": "We are conveniently located right off Route 272 in Little Britain."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Family owned",
+      "text": "This is a family affair. We live right down the street and is owned and operated by the Ploumis family."
+    },
+    {
+      "icon": "fa fa-dollar",
+      "title": "Fair pricing",
+      "text": "We offer everything at a fair price based on volume and cost to us."
+    },
+    {
+      "icon": "fa fa-crosshairs",
+      "title": "Firearms",
+      "text": "We have an assortment of firearms to purchase as well as cleaning, gunsmithing, and assembling services available."
+    }
+  ]
+}
