@@ -11,7 +11,7 @@ import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
-// import HttpsRedirect from 'react-https-redirect';
+import HttpsRedirect from 'react-https-redirect';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -25,7 +25,7 @@ const App = () => {
   }, []);
 
   return (
-    // <HttpsRedirect>
+    <HttpsRedirect>
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
@@ -37,7 +37,7 @@ const App = () => {
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
     </div>
-    //</HttpsRedirect>
+    </HttpsRedirect>
   );
 };
 
