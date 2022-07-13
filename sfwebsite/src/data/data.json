@@ -151,6 +151,16 @@
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
+  "Transfer": {
+    "address": "381 Nottingham Rd, Quarryville, PA 17566",    
+    "phone": "+1 717 955 0346",
+    "email": "Sandy@sfgunsmiths.com",
+    "hours": "Tues-Thurs, 10am-3pm",
+    "hoursext": "Fri-Sat, 10am-5pm",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
   "Features": [
     {
       "icon": "fa fa-compass",

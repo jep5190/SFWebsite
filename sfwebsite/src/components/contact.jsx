@@ -18,20 +18,22 @@ export const Contact = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault()
     console.log(name, email, message)
-    alert("Under construction")
-    // emailjs
-    //   .sendForm(
-    //     'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
-    //   )
-    //   .then(
-    //     (result) => {
-    //       console.log(result.text)
-    //       clearState()
-    //     },
-    //     (error) => {
-    //       console.log(error.text)
-    //     }
-    //   )
+    // alert("Under construction")
+    emailjs
+      .sendForm(
+        'service_izdgn2f', 'template_2pj1yii', e.target, 'Xzx7d0XuxaaVXlcSd'
+      )
+      .then(
+        (result) => {
+          console.log(result.text)
+          clearState()
+          alert("Message sent! We will reply asap.")
+        },
+        (error) => {
+          console.log(error.text)
+          alert("An error occurred, please contact us directly at Sandy@sfgunsmiths.com")
+        }
+      )
   }
   return (
     <div>
