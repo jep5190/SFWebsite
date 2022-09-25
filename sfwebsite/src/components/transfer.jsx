@@ -49,12 +49,16 @@ export const Transfer = (props) => {
             <div className='row'>
               <div className='section-title'>
                 <h2>Transfer a firearm</h2>
-                <p>
+                {/* <p>
                   Please fill out the form below to send us an email and we will
                   get back to you as soon as possible.
+                </p> */}
+                <p>
+                  We are in the process of moving to a new physical location so cannot process mail-in transfers at this time.
+                  We will resume normal operation once settled. Sorry for this inconvenience and thank you for understanding.
                 </p>
               </div>
-              <form name='sentMessage' validate onSubmit={handleSubmit}>
+              {/* <form name='sentMessage' validate onSubmit={handleSubmit}>
                 <div className='row'>
                   <div className='col-md-4'>
                     <div className='form-group'>
@@ -188,7 +192,7 @@ export const Transfer = (props) => {
                 <button type='submit' className='btn btn-custom btn-lg'>
                   Send Message
                 </button>
-              </form>
+              </form> */}
             </div>
           </div>
         </div>
