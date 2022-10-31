@@ -133,6 +133,8 @@ export const Contact = (props) => {
                   {props.data ? props.data.hours : 'loading'}
                   {'\n'}<br />
                   {props.data ? props.data.hoursext : 'loading'}
+                  {'\n'}<br />
+                  {props.data ? props.data.hoursext2 : 'loading'}
                 </text>
               </p>
             </div>

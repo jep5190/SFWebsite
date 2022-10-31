@@ -142,11 +142,12 @@
     }
   ],
   "Contact": {
-    "address": "381 Nottingham Rd, Quarryville, PA 17566",    
+    "address": "7C South Church Street, Quarryville, PA 17566",    
     "phone": "+1 717 955 0346",
     "email": "Sandy@sfgunsmiths.com",
-    "hours": "Tues-Thurs, 10am-3pm",
-    "hoursext": "Fri-Sat, 10am-5pm",
+    "hours": "Monday, 10-3pm",
+    "hoursext": "Tues-Thurs, 10am-5pm",
+    "hoursext2": "Fri-Sat, 10am-7pm",
     "facebook": "https://www.facebook.com/profile.php?id=100077124608991",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
@@ -155,9 +156,10 @@
     "address": "381 Nottingham Rd, Quarryville, PA 17566",    
     "phone": "+1 717 955 0346",
     "email": "Sandy@sfgunsmiths.com",
-    "hours": "Tues-Thurs, 10am-3pm",
-    "hoursext": "Fri-Sat, 10am-5pm",
-    "facebook": "fb.com",
+    "hours": "Monday, 10-3pm",
+    "hoursext": "Tues-Thurs, 10am-5pm",
+    "hoursext2": "Fri-Sat, 10am-7pm",
+    "facebook": "https://www.facebook.com/profile.php?id=100077124608991",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
