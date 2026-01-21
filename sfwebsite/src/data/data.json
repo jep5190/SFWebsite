@@ -146,8 +146,8 @@
     "phone": "+1 717 955 0346",
     "email": "Sandy@sfgunsmiths.com",
     "hours": "Monday, 10-3pm",
-    "hoursext": "Tues-Thurs, 10am-5pm",
-    "hoursext2": "Fri-Sat, 10am-7pm",
+    "hoursext": "Tues-Thurs & Sat, 10am-5pm",
+    "hoursext2": "Friday, 10am-7pm",
     "facebook": "https://www.facebook.com/profile.php?id=100077124608991",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
@@ -157,8 +157,8 @@
     "phone": "+1 717 955 0346",
     "email": "Sandy@sfgunsmiths.com",
     "hours": "Monday, 10-3pm",
-    "hoursext": "Tues-Thurs, 10am-5pm",
-    "hoursext2": "Fri-Sat, 10am-7pm",
+    "hoursext": "Tues-Thurs & Sat, 10am-5pm",
+    "hoursext2": "Fri, 10am-7pm",
     "facebook": "https://www.facebook.com/profile.php?id=100077124608991",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
@@ -167,7 +167,7 @@
     {
       "icon": "fa fa-compass",
       "title": "Local",
-      "text": "We are conveniently located right off Route 272 in Little Britain."
+      "text": "We are conveniently located right off Bank Ave in Quarryville, PA."
     },
     {
       "icon": "fa fa-group",
