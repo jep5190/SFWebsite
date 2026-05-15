@@ -6,7 +6,7 @@ export const Services = (props) => {
           <h2>Our Services</h2>
           <p>
             Sandy and Family Gunsmiths offers gunsmithing services and the sale of firearms.
-            Give us a call, send us a message, or swing by to discuss any project.
+            Give us a call or send us a message to discuss any project.
           </p>
         </div>
         <div className='row'>

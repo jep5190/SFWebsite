@@ -52,6 +52,7 @@ export const Transfer = (props) => {
                 <p>
                   Please fill out the form below to send us an email and we will
                   get back to you as soon as possible.
+                  Not to be used by sales persons for solicitating*
                 </p>
                 {/* <p>
                   We are in the process of moving to a new physical location so cannot process mail-in transfers at this time.

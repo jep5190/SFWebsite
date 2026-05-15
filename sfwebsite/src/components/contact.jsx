@@ -100,15 +100,6 @@ export const Contact = (props) => {
           </div>
           <div className='col-md-3 col-md-offset-1 contact-info'>
             <div className='contact-item'>
-              <h3>Contact Info</h3>
-              <p>
-                <span>
-                  <i className='fa fa-map-marker'></i> Address
-                </span>
-                {props.data ? props.data.address : 'loading'}
-              </p>
-            </div>
-            <div className='contact-item'>
               <p>
                 <span>
                   <i className='fa fa-phone'></i> Phone
@@ -131,35 +122,8 @@ export const Contact = (props) => {
                 </span>{' '}
                 <text>
                   {props.data ? props.data.hours : 'loading'}
-                  {'\n'}<br />
-                  {props.data ? props.data.hoursext : 'loading'}
-                  {'\n'}<br />
-                  {props.data ? props.data.hoursext2 : 'loading'}
                 </text>
               </p>
-            </div>
-          </div>
-          <div className='col-md-12'>
-            <div className='row'>
-              <div className='social'>
-                <ul>
-                  <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
-                      <i className='fa fa-facebook'></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
-                      <i className='fa fa-twitter'></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
-                      <i className='fa fa-youtube'></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
             </div>
           </div>
         </div>

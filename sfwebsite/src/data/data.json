@@ -74,7 +74,7 @@
     {
       "icon": "fa fa-arrows-h",
       "name": "Transfers",
-      "text": "We are proud FFL holders so we are able to complete firearm transfers in house whether you bought the firearm from us or online."
+      "text": "We are proud FFL holders so we are able to complete firearm transfers in house whether you bought the firearm from us, online, or private party."
     },
     {
       "icon": "fa fa-dollar",
@@ -94,7 +94,7 @@
     {
       "icon": "fa fa-phone",
       "name": "Storefront",
-      "text": "Give us a call or stop by the shop to check out whats in stock or discuss your firearm needs!"
+      "text": "Our services are by appointment only. Please call to reserve a time slot."
     }
   ],
   "Testimonials": [
@@ -141,11 +141,10 @@
       "job": "Gunsmith"
     }
   ],
-  "Contact": {
-    "address": "7C South Church Street, Quarryville, PA 17566",    
+  "Contact": {   
     "phone": "+1 717 955 0346",
     "email": "Sandy@sfgunsmiths.com",
-    "hours": "Monday, 10-3pm",
+    "hours": "Mon-Sat, 10-3pm",
     "hoursext": "Tues-Thurs & Sat, 10am-5pm",
     "hoursext2": "Friday, 10am-7pm",
     "facebook": "https://www.facebook.com/profile.php?id=100077124608991",
@@ -156,8 +155,8 @@
     "address": "381 Nottingham Rd, Quarryville, PA 17566",    
     "phone": "+1 717 955 0346",
     "email": "Sandy@sfgunsmiths.com",
-    "hours": "Monday, 10-3pm",
-    "hoursext": "Tues-Thurs & Sat, 10am-5pm",
+    "hours": "Mon-Sat, 10-3pm",
+    "hoursext": "Mon-Sat, 10am-3pm",
     "hoursext2": "Fri, 10am-7pm",
     "facebook": "https://www.facebook.com/profile.php?id=100077124608991",
     "twitter": "twitter.com",
@@ -167,7 +166,7 @@
     {
       "icon": "fa fa-compass",
       "title": "Local",
-      "text": "We are conveniently located right off Bank Ave in Quarryville, PA."
+      "text": "We are conveniently located in Peach Bottom, PA."
     },
     {
       "icon": "fa fa-group",
