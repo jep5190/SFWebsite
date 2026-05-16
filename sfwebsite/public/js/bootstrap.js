@@ -1335,7 +1335,9 @@ if (typeof jQuery === 'undefined') {
     this.type      = type
     this.$element  = $(element)
     this.options   = this.getOptions(options)
-    this.$viewport = this.options.viewport && $($.isFunction(this.options.viewport) ? this.options.viewport.call(this, this.$element) : (this.options.viewport.selector || this.options.viewport))
+    var viewport = this.options.viewport && ($.isFunction(this.options.viewport) ? this.options.viewport.call(this, this.$element) : this.options.viewport)
+    var viewportTarget = viewport && viewport.selector ? viewport.selector : viewport
+    this.$viewport = this.options.viewport && (typeof viewportTarget == 'string' ? $($.find(viewportTarget)) : $(viewportTarget))
     this.inState   = { click: false, hover: false, focus: false }
 
     if (this.$element[0] instanceof document.constructor && !this.options.selector) {
