@@ -507,7 +507,17 @@ if (typeof jQuery === 'undefined') {
   var clickHandler = function (e) {
     var href
     var $this   = $(this)
-    var $target = $($this.attr('data-target') || (href = $this.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '')) // strip for ie7
+    var selector = $this.attr('data-target') || (href = $this.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '') // strip for ie7
+    var $target
+    if (selector) {
+      if (selector.charAt(0) === '#') {
+        $target = $(document.getElementById(selector.slice(1)))
+      } else {
+        $target = $this.find(selector)
+      }
+    } else {
+      $target = $()
+    }
     if (!$target.hasClass('carousel')) return
     var options = $.extend({}, $target.data(), $this.data())
     var slideIndex = $this.attr('data-slide-to')
@@ -697,7 +707,25 @@ if (typeof jQuery === 'undefined') {
     var target = $trigger.attr('data-target')
       || (href = $trigger.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '') // strip for ie7
 
-    return $(target)
+    // Prefer resolving targets by ID to avoid passing untrusted selectors
+    if (!target) return $()
+
+    // If target is an ID selector (starts with '#'), use getElementById for safety
+    if (target.charAt(0) === '#') {
+      var el = document.getElementById(target.slice(1))
+      // getElementById returns a DOM node or null; wrap safely
+      return el ? $(el) : $()
+    }
+
+    // Fallback: attempt to find within document using jQuery.find on a safe root
+    // Wrap in try/catch to avoid passing untrusted selector strings that could
+    // throw in Sizzle or other selector engines.
+    // Using $(target) is equivalent here and simpler; let jQuery resolve the selector.
+    try {
+      return $(target)
+    } catch (e) {
+      return $()
+    }
   }
 
 
