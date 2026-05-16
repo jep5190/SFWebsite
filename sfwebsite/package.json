@@ -16,7 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && node -e \"require('fs').mkdirSync('./sfwebsite', { recursive: true })\"",
+    "deploy": "yarn build && gsutil -m rsync -r build gs://sfgunsmithsbucket/build && gsutil rsync -r gs://sfgunsmithsbucket ./sfwebsite && cd ./sfwebsite && gcloud app deploy --quiet",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

@@ -208,6 +208,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
+  box-sizing: border-box;
   background: url(../img/intro-bgGreenTarget.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
@@ -602,5 +603,19 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+  .intro {
+    display: block;
+    box-sizing: border-box;
+  }
+  header .intro-text {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .intro h1 {
+    font-size: 42px;
+  }
+  .intro p {
+    font-size: 16px;
   }
 }
